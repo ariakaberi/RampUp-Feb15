@@ -6,6 +6,7 @@
 #container	 {
 	margin-top: 50px;
 	margin-left: 100px;
+	margin-right: 100px;
 }
 
 #menubar ul {
@@ -29,3 +30,12 @@
 	padding: 10	0px;
 }
 
+#about{
+	width: 700px;
+	font-family: arial;
+	padding-bottom: 20px;
+}
+
+#blog {
+	font-family: verdana;
+}
