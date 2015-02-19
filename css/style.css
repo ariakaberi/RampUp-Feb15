@@ -1,3 +1,31 @@
-h1 {
-  color: purple;
+* {
+	margin: 0px;
+	padding: 0px;	
 }
+
+#container	 {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+#menubar ul {
+	padding: 20px 0px;
+	background-color: blue;
+	list-style: none;
+	margin: 0px 0px;
+	display: inline-block;
+}
+
+#menubar li {
+	display: inline;
+	font-family: helvetica;
+	font-size: 20px;	
+}
+
+#menubar li a {
+	color: #fff;
+	text-decoration: none;
+	height: 20px;
+	padding: 100px;
+}
+
