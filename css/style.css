@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;	
+	text-align: center;
 }
 
 #container	 {
@@ -20,14 +21,25 @@
 #menubar li {
 	display: inline;
 	font-family: helvetica;
-	font-size: 20px;	
+	font-size: 20px;
+	padding: 20px 50px;	
+}
+
+#menubar li:hover {
+	background-color: yellow;
+
 }
 
 #menubar li a {
 	color: #fff;
 	text-decoration: none;
 	height: 20px;
-	padding: 10	0px;
+	padding: 0px 0px;
+}
+
+#menubar li a:hover {
+	color: black;
+
 }
 
 #about{
@@ -38,4 +50,8 @@
 
 #blog {
 	font-family: verdana;
+}
+
+img {
+	padding-bottom: 40px;
 }
