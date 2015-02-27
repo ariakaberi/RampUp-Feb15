@@ -4,13 +4,13 @@
 	text-align: center;
 }
 
-#container	 {
+.container	 {
 	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
-#menubar ul {
+.menubar ul {
 	padding: 20px 0px;
 	background-color: blue;
 	list-style: none;
@@ -18,37 +18,37 @@
 	display: inline-block;
 }
 
-#menubar li {
+.menubar li {
 	display: inline;
 	font-family: helvetica;
 	font-size: 20px;
 	padding: 20px 50px;	
 }
 
-#menubar li:hover {
+.menubar li:hover {
 	background-color: yellow;
 
 }
 
-#menubar li a {
+.menubar li a {
 	color: #fff;
 	text-decoration: none;
 	height: 20px;
 	padding: 0px 0px;
 }
 
-#menubar li a:hover {
+.menubar li a:hover {
 	color: black;
 
 }
 
-#about{
+.about{
 	width: 700px;
 	font-family: arial;
 	padding-bottom: 20px;
 }
 
-#blog {
+.blog {
 	font-family: verdana;
 }
 
